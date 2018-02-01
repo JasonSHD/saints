@@ -3,6 +3,8 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+
 
 import ReactDOM from 'react-dom';
 
@@ -36,15 +38,17 @@ class App extends Component {
    */
   render() {
     return (
-      <Router>
-        <div>
-          <Topmenu menuItems={this.menuItems} />
+      <MuiThemeProvider>
+        <Router>
+          <div>
+            <Topmenu menuItems={this.menuItems} />
 
-          <Route exact path="/" component={Home}/>
-          <Route path="/events" component={Events}/>
-          <Route path="/calendar" component={Calendar}/>
-        </div>
-      </Router>
+            <Route exact path="/" component={Home}/>
+            <Route path="/events" component={Events}/>
+            <Route path="/calendar" component={Calendar}/>
+          </div>
+        </Router>
+      </MuiThemeProvider>
     );
   };
 };

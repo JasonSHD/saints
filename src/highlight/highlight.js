@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Paper from 'material-ui/Paper';
-import Grid from 'material-ui-next/Grid';
 
 import '../main.css';
 
@@ -16,11 +14,7 @@ class Highlight extends Component {
 
     return (
       <div>
-        <Grid container>
-          <Grid item>
-            <Paper style={style} zDepth={1} />
-          </Grid>
-        </Grid>
+        <p>Sorry! Broken</p>
       </div>
     );
   }

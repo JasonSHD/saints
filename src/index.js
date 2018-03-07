@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+
 
 
 import ReactDOM from 'react-dom';
@@ -11,6 +11,7 @@ import ReactDOM from 'react-dom';
 import Home from './home/home';
 import Topmenu from './navmenu/topmenu';
 import './main.css';
+import 'antd/dist/antd.css';
 
 //import Topmenu from './navmenu/topmenu';
 
@@ -38,7 +39,6 @@ class App extends Component {
    */
   render() {
     return (
-      <MuiThemeProvider>
         <Router>
           <div>
             <Topmenu menuItems={this.menuItems} />
@@ -48,7 +48,6 @@ class App extends Component {
             <Route path="/calendar" component={Calendar}/>
           </div>
         </Router>
-      </MuiThemeProvider>
     );
   };
 };

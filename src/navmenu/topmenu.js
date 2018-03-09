@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, Icon } from 'antd';
 import '../main.css';
-const MenuItemGroup = Menu.ItemGroup;
 
 class Topmenu extends Component {
     state = {
@@ -22,8 +21,7 @@ class Topmenu extends Component {
           mode="horizontal">
 
           <Menu.Item key="home">
-
-            <Link to="/"><Icon type="mail" />home</Link>
+            <Link to="/"><Icon type="mail" />Home</Link>
           </Menu.Item>
           <Menu.Item key="events">
               <Link to="events"><Icon type="appstore" />Events</Link>

@@ -11,6 +11,7 @@ class SpanningRow extends Component {
             let sizingArray = this.props.sizingArray;
             sizingArray.map( num => {
                 sum += num;
+                return num;
             });
             return sizingArray.map( (num, index) => {
                 return (<Col style={{display:'flex', 'justifyContent':'center'}}key={index+'element'} span={

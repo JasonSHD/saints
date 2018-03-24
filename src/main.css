@@ -1,0 +1,28 @@
+/* Image div's */
+.rightImage {
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 100%;
+  height: 400px;
+}
+
+/* Text styling */
+.textStyle {
+  padding: 10px;
+}
+
+/* Ant modifications */
+/* COLOR NEEDS TO BE ABSTRACTED!!!! */
+div.ant-list-item-meta-avatar .hugeAvatar {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 40px;
+  background: #96add3;
+}
+
+span.hugeAvatar .ant-avatar-string {
+  line-height: 75px;
+  left: calc(50% - 30px);
+}

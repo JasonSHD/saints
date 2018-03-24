@@ -1,17 +1,25 @@
 import React, { Component } from 'react';
-import Highlight from './../highlight/highlight';
 import SpanningRow from '../layout/SpanningRow/spanningRow';
 import MainBlogImage from '../blog1/image.js';
 
 import '../main.css';
 
 class Home extends Component {
+
   render() {
+    let stuffs = [
+      {
+        title: "Mission Statement",
+        content: "Through our efforts, we choose to dedicate our time, money and friendship to give support to our veterans, past, present, and future.  To pay our respect to fallen heroes and to help the wounded brethren so they may lead a fulfilling life and to ride in honor of those who cannot, without claiming territory.",
+        imageUrl: "https://s3-us-west-2.amazonaws.com/unknown-saints/canyonBackCut.jpg",
+        ratio: [2, 1]
+      }
+    ]
     return (
       <div>
-        <SpanningRow sizingArray={[2,1]}>
-            <MainBlogImage />
-            <p>{"This is where the content for this item should go.  Whether this is a blog post or a quick description of what's on the side of it."}</p>
+        <SpanningRow sizingArray={stuffs[0].ratio}>
+            <MainBlogImage imageUrl={stuffs[0].imageUrl} />
+            <p className="textStyle" >{stuffs[0].content}</p>
         </SpanningRow>
       </div>
     );

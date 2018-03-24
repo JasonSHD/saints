@@ -10,6 +10,8 @@ import ReactDOM from 'react-dom';
 
 import Home from './home/home';
 import Topmenu from './navmenu/topmenu';
+import Events from './events/events';
+import Calendar from './calendar/calendar';
 import './main.css';
 import 'antd/dist/antd.css';
 
@@ -50,22 +52,6 @@ class App extends Component {
         </Router>
     );
   };
-};
-
-const Events = () => {
-  return (
-    <div>
-      Under Construction
-    </div>
-  );
-};
-
-const Calendar = () => {
-  return (
-    <div>
-      Under Construction
-    </div>
-  );
 };
 
 ReactDOM.render(

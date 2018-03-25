@@ -7,7 +7,7 @@ class MainBlogImage extends Component {
     }
 
     return (
-      <div style={style} className="rightImage">
+      <div style={style} className={this.props.imgCSS}>
       </div>
     );
   }

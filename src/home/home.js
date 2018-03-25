@@ -70,7 +70,7 @@ class Home extends Component {
           </Carousel>
         </div>
         <SpanningRow sizingArray={stuffs[0].ratio}>
-            <MainBlogImage imageUrl={stuffs[0].imageUrl} />
+            <MainBlogImage imgCSS="rightImage" imageUrl={stuffs[0].imageUrl} />
             <p className="textStyle" >{stuffs[0].content}</p>
         </SpanningRow>
       </div>

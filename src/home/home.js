@@ -31,25 +31,25 @@ class Home extends Component {
         image: "https://s3-us-west-2.amazonaws.com/unknown-saints/20150620_102110.jpg"
       },
       {
-        key: "img1",
+        key: "img5",
         title: "This is more text",
         tColor: "#fff",
         bColor: "#000",
         image: "https://s3-us-west-2.amazonaws.com/unknown-saints/20150627_022220.jpg"
       },
       {
-        key: "img1",
+        key: "img6",
         title: "This is more text",
         tColor: "#fff",
         bColor: "#000",
-        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/FamilyIdaho.jpeg"
+        image: "//s3-us-west-2.amazonaws.com/unknown-saints/FamilyIdaho.jpg"
       },
       {
-        key: "img1",
+        key: "img3",
         title: "This is more text",
         tColor: "#fff",
         bColor: "#000",
-        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/Heading+Out+Idaho.jpeg"
+        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/Heading+Out+Idaho.jpg"
       }
     ];
 

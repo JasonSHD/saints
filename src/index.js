@@ -33,6 +33,11 @@ class App extends Component {
       key: '3',
       name: 'Calendar',
       url: '/calendar'
+    },
+    {
+      key: '4',
+      name: 'Contact Us',
+      url: '/contact'
     }
   ];
 

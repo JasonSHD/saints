@@ -7,24 +7,17 @@ class Events extends Component {
   render() {
     const data = [
       {
-        title: 'Bombers Bash',
-        date: 'May 12th',
-        charity: 'Homeless Vets charity',
-        host: 'Bombers and Unknown Saints',
+        title: 'Kickstands Up for Summer',
+        date: 'May 17th. 2017',
+        charity: 'Hand in Hand and Project Homeless Veterans: Winter wear clothes drive.',
+        host: 'Unknonw Siants and Bombers Sports Bar',
         link: '/events/bombersbash',
       },
       {
-        title: 'Bombers Bash',
-        date: 'May 12th',
-        charity: 'Homeless Vets charity',
-        host: 'Bombers and Unknown Saints',
-        link: '/events/bombersbash',
-      },
-      {
-        title: 'Bombers Bash',
-        date: 'December 12th',
-        charity: 'Homeless Vets charity',
-        host: 'Bombers and Unknown Saints',
+        title: 'Kickstands Up for Summer',
+        date: 'May 12th, 2018',
+        charity: "Hunting for Hero's Sublette Chpater and Veteran Scholarships",
+        host: 'Unknonw Siants and Bombers Sports Bar',
         link: '/events/bombersbash',
       },
     ];

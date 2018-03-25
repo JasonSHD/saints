@@ -34,6 +34,7 @@ class Topmenu extends Component {
    */
   fullMenu() {
     return (
+      <div className="mainMenu">
         <Menu
           onClick={this.handleClick}
           selectedKeys={[this.state.current]}
@@ -53,6 +54,7 @@ class Topmenu extends Component {
               <Link to="/contactus"><Icon type="mail" />Contact Us</Link>
           </Menu.Item>
         </Menu>
+      </div>
     );
   }
 

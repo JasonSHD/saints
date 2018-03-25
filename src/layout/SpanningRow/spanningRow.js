@@ -14,9 +14,9 @@ class SpanningRow extends Component {
         return num;
       });
       return sizingArray.map( (num, index) => {
-        return (<Col style={{display:'flex', 'justifyContent':'center'}}key={index+'element'} span={
-          Math.ceil((num / sum) * (this.props.maxwidth || 24))
-        }>
+        let spanSize = Math.ceil((num / sum) * (this.props.maxwidth || 24));
+
+        return (<Col style={{display:'flex', 'justifyContent':'center'}}key={index+'element'} lg={{ span: spanSize}} xs={{ span: spanSize * 2  }}>
           {this.props.children[index]}
           </Col>)
       })

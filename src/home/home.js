@@ -21,14 +21,35 @@ class Home extends Component {
         title: "Texterest!",
         tColor: "#fff",
         bColor: "#000",
-        image: "http://s3-us-west-2.amazonaws.com/unknown-saints/Flag.jpg"
+        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/20150625_085319.jpg"
       },
       {
         key: "img1",
         title: "This is more text",
         tColor: "#fff",
         bColor: "#000",
-        image: "http://s3-us-west-2.amazonaws.com/unknown-saints/Flag.jpg"
+        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/20150620_102110.jpg"
+      },
+      {
+        key: "img1",
+        title: "This is more text",
+        tColor: "#fff",
+        bColor: "#000",
+        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/20150627_022220.jpg"
+      },
+      {
+        key: "img1",
+        title: "This is more text",
+        tColor: "#fff",
+        bColor: "#000",
+        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/FamilyIdaho.jpeg"
+      },
+      {
+        key: "img1",
+        title: "This is more text",
+        tColor: "#fff",
+        bColor: "#000",
+        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/Heading+Out+Idaho.jpeg"
       }
     ];
 

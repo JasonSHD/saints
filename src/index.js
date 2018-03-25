@@ -48,7 +48,7 @@ class App extends Component {
   render() {
     return (
         <Router>
-          <div>
+          <div className="watermark">
             <Topmenu menuItems={this.menuItems} />
 
             <Route exact path="/" component={Home}/>

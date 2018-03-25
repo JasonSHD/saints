@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class MainBlogImage extends Component {
   render() {
     const style = {
-      "background-image": "url('" + this.props.imageUrl + "')"
+      backgroundImage: "url('" + this.props.imageUrl + "')"
     }
 
     return (

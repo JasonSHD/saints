@@ -1,10 +1,56 @@
 import React, { Component } from 'react';
 import SpanningRow from '../layout/SpanningRow/spanningRow';
 import MainBlogImage from '../blog1/image.js';
+import { Carousel } from 'antd';
 
 import '../main.css';
 
 class Home extends Component {
+
+  createCarousel() {
+    let carouselItems = [
+      {
+        key: "img4",
+        title: "Text goes here",
+        tColor: "#fff",
+        bColor: "#000",
+        image: "http://s3-us-west-2.amazonaws.com/unknown-saints/Flag.jpg"
+      },
+      {
+        key: "img2",
+        title: "Texterest!",
+        tColor: "#fff",
+        bColor: "#000",
+        image: "http://s3-us-west-2.amazonaws.com/unknown-saints/Flag.jpg"
+      },
+      {
+        key: "img1",
+        title: "This is more text",
+        tColor: "#fff",
+        bColor: "#000",
+        image: "http://s3-us-west-2.amazonaws.com/unknown-saints/Flag.jpg"
+      }
+    ];
+
+    let rVal = [];
+
+    carouselItems.forEach(item => {
+      let divStyle={
+        "backgroundImage": "url('" + item.image + "')",
+        "backgroundColor": item.bColor,
+      };
+
+      rVal.push((
+        <div key={item.key}>
+          <div style={divStyle} className="carouselItem" src={item.image}>
+            <h2 style={{ "color": item.tColor }}>{item.title}</h2>
+          </div>
+        </div>
+      ));
+    });
+
+    return rVal;
+  }
 
   render() {
     let stuffs = [
@@ -14,9 +60,15 @@ class Home extends Component {
         imageUrl: "https://s3-us-west-2.amazonaws.com/unknown-saints/canyonBackCut.jpg",
         ratio: [2, 1]
       }
-    ]
+    ];
+
     return (
       <div>
+        <div className="carouselDiv">
+          <Carousel autoplay>
+            {this.createCarousel()}
+          </Carousel>
+        </div>
         <SpanningRow sizingArray={stuffs[0].ratio}>
             <MainBlogImage imageUrl={stuffs[0].imageUrl} />
             <p className="textStyle" >{stuffs[0].content}</p>

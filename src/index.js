@@ -13,6 +13,7 @@ import Home from './home/home';
 import Topmenu from './navmenu/topmenu';
 import Events from './events/events';
 import Calendar from './calendar/calendar';
+import EventDetails from './events/eventdetails';
 import './main.css';
 import 'antd/dist/antd.css';
 
@@ -37,12 +38,13 @@ class App extends Component {
   render() {
     return (
         <Router>
-          <div>
+          <div className="watermark">
             <Topmenu menuItems={this.menuItems} />
 
             <Route exact path="/" component={Home}/>
             <Route path="/events" component={Events}/>
             <Route path="/calendar" component={Calendar}/>
+            <Route path="/eventdetails" component={EventDetails}/>
           </div>
         </Router>
     );

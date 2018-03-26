@@ -14,35 +14,35 @@ class Home extends Component {
         title: "Text goes here",
         tColor: "#fff",
         bColor: "#000",
-        image: "http://s3-us-west-2.amazonaws.com/unknown-saints/Flag.jpg"
+        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/Flag.jpg"
       },
       {
         key: "img2",
         title: "Texterest!",
         tColor: "#fff",
         bColor: "#000",
-        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/20150625_085319.jpg"
+        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/Sid+and+Gina.jpg"
       },
       {
         key: "img1",
         title: "This is more text",
         tColor: "#fff",
         bColor: "#000",
-        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/20150620_102110.jpg"
+        image: " https://s3-us-west-2.amazonaws.com/unknown-saints/VietWall.jpg"
       },
       {
         key: "img5",
         title: "This is more text",
         tColor: "#fff",
         bColor: "#000",
-        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/20150627_022220.jpg"
+        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/VietFieldCross.jpg"
       },
       {
         key: "img6",
         title: "This is more text",
         tColor: "#fff",
         bColor: "#000",
-        image: "//s3-us-west-2.amazonaws.com/unknown-saints/FamilyIdaho.jpg"
+        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/FamilyIdaho.jpg"
       },
       {
         key: "img3",

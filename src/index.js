@@ -40,11 +40,11 @@ class App extends Component {
     return (
         <Router>
           <div className="watermark">
-            <Row>
-            <Col span={6}><img src="https://s3-us-west-2.amazonaws.com/unknown-saints/Patch.jpg" /></Col>
+            <Row className="mainMenu">
+              <Col span={6}><img src="https://s3-us-west-2.amazonaws.com/unknown-saints/BlackPatchSmaller.jpg" /></Col>
               <Col span={16}><Topmenu /></Col>
             </Row>
-
+            
             <Route exact path="/" component={Home}/>
             <Route path="/events" component={Events}/>
             <Route path="/calendar" component={Calendar}/>

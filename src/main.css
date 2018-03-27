@@ -40,6 +40,12 @@
   height: auto;
 }
 
+.mainMenu {
+  padding: 20px;
+  background-color: #000000;
+
+}
+
 /* Ant modifications */
 /* COLOR NEEDS TO BE ABSTRACTED!!!! */
 div.ant-list-item-meta-avatar .hugeAvatar {

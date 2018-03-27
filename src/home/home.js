@@ -56,11 +56,7 @@ class Home extends Component {
     let rVal = [];
 
     carouselItems.forEach(item => {
-      let divStyle={
-        "backgroundImage": "url('" + item.image + "')",
-        "backgroundColor": item.bColor,
-      };
-
+      
       rVal.push((
         <div key={item.key}>
           <img className="carouselItem" src={item.image} />

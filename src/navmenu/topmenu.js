@@ -85,8 +85,7 @@ class Topmenu extends Component {
   }
 
   render() {
-    console.log(this.state.dimensions[0]);
-    return (this.state.dimensions[0] > 501) ? this.fullMenu() : this.compactMenu();
+    return (this.state.dimensions[0] > 768) ? this.fullMenu() : this.compactMenu();
   }
 }
 

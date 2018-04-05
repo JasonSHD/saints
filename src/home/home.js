@@ -28,14 +28,7 @@ class Home extends Component {
         title: "",
         tColor: "#fff",
         bColor: "#000",
-        image: " https://s3-us-west-2.amazonaws.com/unknown-saints/VietWall.jpg"
-      },
-      {
-        key: "img5",
-        title: "",
-        tColor: "#fff",
-        bColor: "#000",
-        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/VietFieldCross.jpg"
+        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/VietWall.jpg"
       },
       {
         key: "img6",
@@ -56,16 +49,10 @@ class Home extends Component {
     let rVal = [];
 
     carouselItems.forEach(item => {
-      let divStyle={
-        "backgroundImage": "url('" + item.image + "')",
-        "backgroundColor": item.bColor,
-      };
-
+      
       rVal.push((
         <div key={item.key}>
-          <div style={divStyle} className="carouselItem" src={item.image}>
-            <h2 style={{ "color": item.tColor }}>{item.title}</h2>
-          </div>
+          <img className="carouselItem" src={item.image} />
         </div>
       ));
     });

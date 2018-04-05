@@ -45,7 +45,7 @@
   background-color: #000000;
 }
 
-.menuList {
+.contactUs {
   display: block;
   color: lightgrey;
   text-align: center;
@@ -59,7 +59,32 @@
 }
 
 .watermark {
-  
+  background-image: url(https://s3-us-west-2.amazonaws.com/unknown-saints/PatchwithoutRockerBackground.png);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contactBox {
+  background-color: black;
+  width: 300px;
+  border: 25px solid black;
+  padding: 10px;
+  margin: 10px;
+  color: grey;
+  list-style: none;
+  text-align: center;
+}
+
+.eventsBox {
+  background-color: none;
+  width: 100%;
+  height: auto;
+  border: solid black;
+  padding: 0;
+  margin: 10px;
+  list-style: none;
+  color: black;
 }
 
 /* Ant modifications */

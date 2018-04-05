@@ -1,25 +1,20 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'antd';
-import Topmenu from '../navmenu/topmenu';
+import SpanningRow from '../layout/SpanningRow/spanningRow';
+import MainBlogImage from '../blog1/image.js';
+import { Button } from 'antd';
 import '../main.css';
 
 class ContactUs extends Component {
 	render() {
 		return (
-  			<div className="ContactUs">
-    			<Row>
-     				<Col span={6}><img src="https://s3-us-west-2.amazonaws.com/unknown-saints/Patch.jpg" /></Col>
-      				<Col span={16}><Topmenu /></Col>
-      			</Row>
-  			</div>,
-  			<ul className="menuList">
-  				<li>Home</li>
-  				<li>Events</li>
-  				<li>Calendar</li>
-  				<li>Contact Us</li>
-  				<li>Login</li>
-  			</ul>
-  		)
+      <div>
+        <ul>
+          <li className="contactBox"><a href="https://www.facebook.com/groups/1672438879652518/">Facebook</a></li>
+          <li className="contactBox">Email</li>
+          <li className="contactBox">Mail</li>
+        </ul>
+      </div>
+  	)
 	}
 }
 

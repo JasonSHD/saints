@@ -59,7 +59,8 @@
 }
 
 .watermark {
-  
+  background-image: url(https://s3-us-west-2.amazonaws.com/unknown-saints/PatchwithoutRockerBackground.png);
+  background-size: 100%;
 }
 
 /* Ant modifications */

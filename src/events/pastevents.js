@@ -8,22 +8,13 @@ import '../main.css';
 class PastEvents extends Component {
 
   render() {
-        let stuffs = [
-      {
-        title: "KUFS 2017",
-        content: "Blah Blah info.",
-        imageUrl: "https://s3-us-west-2.amazonaws.com/unknown-saints/USevent2017.jpg",
-        ratio: [1, 2]
-      },
-     ];
-    return (
+      return (
         <div>
           <Button href="/upcomingevents">Upcoming Events</Button>
           <Button href="/pastevents">Past Events</Button>
-          <SpanningRow sizingArray={stuffs[0].ratio}>
-            <MainBlogImage imgCSS="generalImage" imageUrl={stuffs[0].imageUrl} />
-            <p className="textStyle" >{stuffs[0].content}</p>
-        </SpanningRow>
+          <ul>
+          	<li className="eventsBox"><img className="generalImage" src="https://s3-us-west-2.amazonaws.com/unknown-saints/USevent2017.jpg" /></li>
+          </ul>
         </div>
       );
   }

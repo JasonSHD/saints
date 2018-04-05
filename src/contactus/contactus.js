@@ -8,10 +8,10 @@ class ContactUs extends Component {
 	render() {
 		return (
       <div>
-        <ul className="contactUs">
-          <li><a href="https://www.facebook.com/groups/1672438879652518/">Facebook</a></li>
-          <li>Email</li>
-          <li>Mail</li>
+        <ul>
+          <li className="contactBox"><a href="https://www.facebook.com/groups/1672438879652518/">Facebook</a></li>
+          <li className="contactBox">Email</li>
+          <li className="contactBox">Mail</li>
         </ul>
       </div>
   	)

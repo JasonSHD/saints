@@ -8,32 +8,13 @@ import '../main.css';
 class UpcomingEvents extends Component {
 
   render() {
-        let stuffs = [
-      {
-        title: "KUFS 2018",
-        content: "Blah Blah info.",
-        imageUrl: "https://s3-us-west-2.amazonaws.com/unknown-saints/KUFS-Flyer1-1.jpg",
-        ratio: [1, 2]
-      },
-      {
-        title: "KUFS 2018 T-Shirt",
-        content: "Our 2018 T-Shirt.",
-        imageUrl: "https://s3-us-west-2.amazonaws.com/unknown-saints/2018-tshirt-design-1a-1.jpg",
-        ratio: [2, 1]
-      }
-    ];
-    return (
+      return (
         <div>
           <Button href="/upcomingevents">Upcoming Events</Button>
           <Button href="/pastevents">Past Events</Button>
-          <SpanningRow sizingArray={stuffs[0].ratio}>
-            <MainBlogImage imgCSS="generalImage" imageUrl={stuffs[0].imageUrl} />
-            <p className="textStyle" >{stuffs[0].content}</p>
-        </SpanningRow>
-        <SpanningRow sizingArray={stuffs[1].ratio}>
-            <p className="textStyle" >{stuffs[1].content}</p>
-            <MainBlogImage imgCSS="verticalFitImage" imageUrl={stuffs[1].imageUrl} />
-        </SpanningRow>
+          <ul>
+            <li className="eventsBox"><img className="generalImage" src="https://s3-us-west-2.amazonaws.com/unknown-saints/KUFS-Flyer1-1.jpg" />"Kickstands Up for Summer 2018  Charities: Veterans Scholarships and Hunting for Hero's with Sublet Chapter."</li>
+          </ul>
         </div>
       );
   }

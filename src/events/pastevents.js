@@ -18,8 +18,8 @@ class PastEvents extends Component {
      ];
     return (
         <div>
-          <Button href="/eventdetails">Upcoming Events</Button>
-          <Button href="/eventdetails">Past Events</Button>
+          <Button href="/upcomingevents">Upcoming Events</Button>
+          <Button href="/pastevents">Past Events</Button>
           <SpanningRow sizingArray={stuffs[0].ratio}>
             <MainBlogImage imgCSS="generalImage" imageUrl={stuffs[0].imageUrl} />
             <p className="textStyle" >{stuffs[0].content}</p>

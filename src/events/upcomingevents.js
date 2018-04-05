@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import SpanningRow from '../layout/SpanningRow/spanningRow';
 import MainBlogImage from '../blog1/image.js';
 import { Button } from 'antd';
+
 import '../main.css';
 
-class ContactUs extends Component {
-	render() {
+class UpcomingEvents extends Component {
+
+  render() {
         let stuffs = [
       {
         title: "KUFS 2018",
@@ -20,11 +22,11 @@ class ContactUs extends Component {
         ratio: [2, 1]
       }
     ];
-		return (
+    return (
         <div>
           <Button href="/eventdetails">Upcoming Events</Button>
           <Button href="/eventdetails">Past Events</Button>
-  		    <SpanningRow sizingArray={stuffs[0].ratio}>
+          <SpanningRow sizingArray={stuffs[0].ratio}>
             <MainBlogImage imgCSS="generalImage" imageUrl={stuffs[0].imageUrl} />
             <p className="textStyle" >{stuffs[0].content}</p>
         </SpanningRow>
@@ -33,8 +35,8 @@ class ContactUs extends Component {
             <MainBlogImage imgCSS="verticalFitImage" imageUrl={stuffs[1].imageUrl} />
         </SpanningRow>
         </div>
-  		)
-	}
+      );
+  }
 }
 
-export default ContactUs
+export default UpcomingEvents;

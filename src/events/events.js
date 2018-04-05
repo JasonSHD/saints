@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { List, Avatar } from 'antd';
 import { Button } from 'antd';
+import { Link } from 'react-router-dom';
 
 import '../main.css';
 
@@ -17,7 +18,7 @@ class Events extends Component {
       {
         title: 'Kickstands Up for Summer',
         date: 'May 12th, 2018',
-        charity: "Hunting for Hero's Sublette Chpater and Veteran Scholarships",
+        charity: "Veteran Scholarships and Hunting for Hero's with Sublette Chpater",
         host: 'Unknonw Siants and Bombers Sports Bar',
         link: '/upcomingevents',
       },
@@ -25,8 +26,12 @@ class Events extends Component {
 
     return (
       <div>
-        <Button href="/upcomingevents">Upcoming Events</Button>
-        <Button href="/pastevents">Past Events</Button>
+        <Link to="/upcomingevents">
+            <Button>Upcoming Events</Button>
+          </Link>
+          <Link to="pastevents">
+            <Button>Past Events</Button>
+          </Link>
         <List
           itemLayout="horizontal"
           dataSource={data}

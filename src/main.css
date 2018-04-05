@@ -58,6 +58,10 @@
   overflow: hidden;
 }
 
+.watermark {
+  
+}
+
 /* Ant modifications */
 /* COLOR NEEDS TO BE ABSTRACTED!!!! */
 div.ant-list-item-meta-avatar .hugeAvatar {

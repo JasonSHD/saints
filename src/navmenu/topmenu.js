@@ -63,7 +63,7 @@ class Topmenu extends Component {
    */
   compactMenu() {
     const menu = (
-      <Menu>
+      <Menu >
         <Menu.Item key="home">
           <Link to="/"><Icon type="lock" />Home</Link>
         </Menu.Item>
@@ -81,7 +81,7 @@ class Topmenu extends Component {
 
     return (
       <Dropdown overlay={menu} trigger={['click']}>
-        <Icon style={{fontSize: 32}} type="bars" />
+        <Icon style={{fontSize: 32, color: "rgba(210, 210, 210, 2.65)" }} type="bars" />
       </Dropdown>
     );
   }

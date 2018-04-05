@@ -27,7 +27,7 @@ class App extends Component {
   render() {
     return (
         <Router>
-          <div className="watermark" img src="https://s3-us-west-2.amazonaws.com/unknown-saints/Field+Cross+3.jpg">
+          <div className="watermark">
             <Row className="mainMenu">
               <Col span={6}><img src="https://s3-us-west-2.amazonaws.com/unknown-saints/BlackPatchSmaller.jpg" /></Col>
               <Col span={16}><Topmenu /></Col>

@@ -13,7 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "`aws ecr get-login --no-include-email --region us-west-2` && docker build -t unknownsaints . && docker tag unknownsaints:latest 627408441274.dkr.ecr.us-west-2.amazonaws.com/unknownsaints:v1.0.1 && docker push 627408441274.dkr.ecr.us-west-2.amazonaws.com/unknownsaints:v1.0.1",
+    "deploy": "`aws ecr get-login --no-include-email --region us-west-1` && docker build -t unknownsaints . && docker tag unknownsaints:latest 627408441274.dkr.ecr.us-west-2.amazonaws.com/unknownsaints:v1.0.2 && docker push 627408441274.dkr.ecr.us-west-2.amazonaws.com/unknownsaints:v1.0.2",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }

@@ -28,14 +28,7 @@ class Home extends Component {
         title: "This is more text",
         tColor: "#fff",
         bColor: "#000",
-        image: " https://s3-us-west-2.amazonaws.com/unknown-saints/VietWall.jpg"
-      },
-      {
-        key: "img5",
-        title: "This is more text",
-        tColor: "#fff",
-        bColor: "#000",
-        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/VietFieldCross.jpg"
+        image: "https://s3-us-west-2.amazonaws.com/unknown-saints/VietWall.jpg"
       },
       {
         key: "img6",

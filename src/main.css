@@ -45,11 +45,11 @@
   background-color: #000000;
 }
 
-.menuList {
+.contactUs {
   display: block;
   color: lightgrey;
   text-align: center;
-  padding: 16px;
+  padding: 25px;
   text-decoration: none;
   list-style: none;
   background-color: #000000;
@@ -61,6 +61,15 @@
 .watermark {
   background-image: url(https://s3-us-west-2.amazonaws.com/unknown-saints/PatchwithoutRockerBackground.png);
   background-size: 100%;
+}
+
+.sider {
+  background-image: url(https://s3-us-west-2.amazonaws.com/unknown-saints/KUFS-Flyer1-1.jpg);
+  background-size: 100%;
+}
+
+.header {
+
 }
 
 /* Ant modifications */

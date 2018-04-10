@@ -11,13 +11,13 @@ class Events extends Component {
       {
         title: 'Kickstands Up for Summer',
         date: 'May 17th. 2017',
-        charity: 'Hand in Hand and Project Homeless Veterans: Winter wear clothes drive.',
+        charity: 'Hand in Hand and Project Homeless Veterans: Winter wear clothes drive',
         host: 'Unknonw Siants and Bombers Sports Bar',
         link: '/pastevents',
       },
       {
         title: 'Kickstands Up for Summer',
-        date: 'May 12th, 2018',
+        date: 'July 7th, 2018',
         charity: "Veteran Scholarships and Hunting for Hero's with Sublette Chpater",
         host: 'Unknonw Siants and Bombers Sports Bar',
         link: '/upcomingevents',

@@ -3,8 +3,10 @@ import SpanningRow from '../layout/SpanningRow/spanningRow';
 import MainBlogImage from '../blog1/image.js';
 import { Link } from 'react-router-dom';
 import { Button } from 'antd';
+import EventsImage from '../events/eventsimage';
 
 import '../main.css';
+
 
 class UpcomingEvents extends Component {
 
@@ -18,7 +20,9 @@ class UpcomingEvents extends Component {
             <Button>Past Events</Button>
           </Link>
           <ul>
-            <li className="eventsBox"><img className="verticalFitImage" src="https://s3-us-west-2.amazonaws.com/unknown-saints/KUFS-Flyer1-1.jpg" />"Kickstands Up for Summer 2018  Charities: Veterans Scholarships and Hunting for Hero's with Sublet Chapter."</li>
+            <li className="eventsBox"><img className="verticalFitImage" src="https://s3-us-west-2.amazonaws.com/unknown-saints/2018-tshirt-design-1a-1.jpg" /><EventsImage /></li>
+            <li className="eventsBox">Some other Event</li>
+            <li className="eventsBox">Some other Event</li>
           </ul>
         </div>
       );

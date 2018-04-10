@@ -4,6 +4,7 @@ import {
   Route
 } from 'react-router-dom';
 import { Row, Col } from 'antd';
+import { Link } from 'react-router-dom';
 
 
 import ReactDOM from 'react-dom';
@@ -28,10 +29,11 @@ class App extends Component {
   render() {
     return (
         <Router>
-          <div className="watermark">
+          <div>
             <Row className="mainMenu">
-              <Col span={6}><img src="https://s3-us-west-2.amazonaws.com/unknown-saints/BlackPatchSmaller.jpg" /></Col>
-              <Col span={16}><Topmenu /></Col>
+              <Col span={2}><Link to="/"><img src="https://s3-us-west-2.amazonaws.com/unknown-saints/BlackPatchSmaller.jpg" /></Link></Col>
+              <Col span={20}><Topmenu /></Col>
+              <Col span={2}><Link to="/"><img src="https://s3-us-west-2.amazonaws.com/unknown-saints/BlackPatchSmaller.jpg" /></Link></Col>
             </Row>
             
             <Route exact path="/" component={Home}/>

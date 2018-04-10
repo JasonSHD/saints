@@ -77,10 +77,12 @@ class Home extends Component {
             {this.createCarousel()}
           </Carousel>
         </div>
+        <div className="eventsBox">
         <SpanningRow sizingArray={stuffs[0].ratio}>
             <MainBlogImage imgCSS="rightImage" imageUrl={stuffs[0].imageUrl} />
             <p className="textStyle" >{stuffs[0].content}</p>
         </SpanningRow>
+        </div>
       </div>
     );
   }

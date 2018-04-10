@@ -20,8 +20,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 100%;
-  width: 100%;
-  height: 400px;
+  width: 300px;
+  height: 250px;
   max-width: 750px;
 }
 
@@ -60,7 +60,7 @@
 
 .watermark {
   background-image: url(https://s3-us-west-2.amazonaws.com/unknown-saints/PatchwithoutRockerBackground.png);
-  background-size: 75%;
+  background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -78,7 +78,7 @@
 
 .eventsBox {
   background-color: none;
-  width: 100%;
+  width: 90%;
   height: auto;
   border: solid black;
   padding: 0;
